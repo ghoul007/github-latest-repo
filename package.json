@@ -1,7 +1,8 @@
 {
-  "name": "gitsearch",
+  "name": "github-latest-repo",
   "version": "1.0.0",
-  "description": "",
+  "bin": "bin/index.js",
+  "description": "A simple utility to get on latest GitHub repos",
   "main": "index.js",
   "scripts": {
     "build": "tsc --project .",
@@ -14,7 +15,7 @@
     "semantic-release": "semantic-release"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ahmed GHOUL",
   "license": "ISC",
   "devDependencies": {
     "@types/inquirer": "^7.3.1",

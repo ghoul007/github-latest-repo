@@ -1,8 +1,20 @@
-## Install Packages
 
+# Github Search Latest Repo CLi
+A simple utility to get on latest GitHub repos
+
+
+## installation
+
+```bash
+# To install simply run
+npm install -g github-latest-repo
+
+# and execute
+github-latest-repo
 ```
-// devDependencies
-npm i @types/inquirer @types/node @types/ora @types/puppeteer prettier rimraf semantic-release tslint ts-node-dev typescript
 
-//dependencies
-npm i chalk inquirer ora puppeteer
+
+ 
+```bash
+npx github-latest-repo
+```
